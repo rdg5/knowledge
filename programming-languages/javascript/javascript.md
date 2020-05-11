@@ -13,3 +13,8 @@
     - **Objects** ({} and others), used to group related data and code
     - **Functions** (x => x *2 and others), used to refer to code
 
+
+
+## Links
+
+- [Just JavaScript](https://justjavascript.com/) course by Dan Abramov
