@@ -13,7 +13,9 @@
     - **Objects** ({} and others), used to group related data and code
     - **Functions** (x => x *2 and others), used to refer to code
 
-
+- To logout a user using cookies we can use res.clearCookie('key') => this is
+  essentially just putting an already expired date as expiration date so the
+  browser can remove the cookie.
 
 ## Links
 
