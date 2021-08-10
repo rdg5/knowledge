@@ -9,3 +9,5 @@
 - [Functional programming explained with Factorio](https://bartoszmilewski.com/2021/02/16/functorio/)
 - [The small web is beautiful](https://benhoyt.com/writings/the-small-web-is-beautiful/)
 - [Factorio as interview](https://erikmcclure.com/blog/factorio-is-best-interview-we-have/)
+- [Hacking APIs](https://labs.detectify.com/2021/08/10/how-to-hack-apis-in-2021/)
+
