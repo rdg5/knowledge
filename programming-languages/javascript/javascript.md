@@ -21,3 +21,5 @@
 
 - [Just JavaScript](https://justjavascript.com/) course by Dan Abramov
 - [I don't want to do frontend anymore](https://soynomm.com/blog/i-dont-want-to-do-frontend-anymore/)
+- [Xeact framework](https://christine.website/blog/xeact-0.0.69-2021-11-18)
+
