@@ -8,3 +8,4 @@
 - [Email honeypots](https://www.abclinuxu.cz/blog/jenda/2020/12/my-e-mail-honeypots)
 - [Startin a new digital identity](https://k3tan.com/starting-a-new-digital-identity)
 - [Google analytics](https://plausible.io/blog/remove-google-analytics#its-owned-by-google-the-largest-ad-tech-company-in-the-world)
+- [I've locked myself out of my digital life](https://shkspr.mobi/blog/2022/06/ive-locked-myself-out-of-my-digital-life/)
