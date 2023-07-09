@@ -11,3 +11,4 @@
 - [Factorio as interview](https://erikmcclure.com/blog/factorio-is-best-interview-we-have/)
 - [Hacking APIs](https://labs.detectify.com/2021/08/10/how-to-hack-apis-in-2021/)
 - [Programmers don't understand hashing](https://soatok.blog/2021/08/24/programmers-dont-understand-hash-functions)
+- [The Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid/)
