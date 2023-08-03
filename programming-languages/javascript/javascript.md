@@ -17,6 +17,14 @@
   essentially just putting an already expired date as expiration date so the
   browser can remove the cookie.
 
+- To use sinon stub on a function that does not belong to an object we can import it 
+  `import * as functionName from '../../folder/file';` and then in our test do:
+  ```
+   const functionStub = sinon
+    .stub(functionName, 'functionName')
+    .returns(Promise.resolve(null));
+  ```
+
 ## Links
 
 - [Just JavaScript](https://justjavascript.com/) course by Dan Abramov
