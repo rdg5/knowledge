@@ -31,4 +31,4 @@
 - [I don't want to do frontend anymore](https://soynomm.com/blog/i-dont-want-to-do-frontend-anymore/)
 - [Xeact framework](https://christine.website/blog/xeact-0.0.69-2021-11-18)
 - [Promises/Async functions explained to kids](https://levelup.gitconnected.com/promises-in-javascript-explained-for-kids-a69e56b58e2c)
-
+- [Pure functions, Function types, interesting articles](https://dmitripavlutin.com)
