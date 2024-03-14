@@ -1,5 +1,9 @@
 # Programming
 
+## Notes
+
+- For implementing full-blown authentication [Clerk][https://clerk.dev] seems nice
+
 ## Links
 
 - [Questions from b0rk](https://questions.wizardzines.com/) Flashcards like platform in various topics
