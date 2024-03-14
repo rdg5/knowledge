@@ -51,4 +51,16 @@ const NewTodoForm = ({}) => {
     </div>
   )
 }```
+
+- If you want to make an api you can do it by making an api folder in the app. And then you can make a special file called `route` to define your api. Client-side things have `page.tsx` api's have `route.ts`.
+
+- Next.Js API example:
+
+```
+import { NextResponse } from 'next/server'
+
+export const GET = async (request: Request) => {
+  return NextResponse.json({ message: 'hello' })
+}
+```
 ````
