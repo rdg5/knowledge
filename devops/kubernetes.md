@@ -19,5 +19,14 @@
 - To get into the pod we use: `k exec -it ${nameOfPod} -- /bin/bash`, same as docker containers
 - Strategy `RollingUpdate` is the default, it's the strategy which waits for the update and then removes the old pods
 - If there is no `-n` attribute refering to the namespace, the pod gets run in `default` automatically
+- Port forwarding can be done with `k port-forward ${podName} ${portNumber}`
+
+### Networking
+
+- Kubernetes achieves pods seeing each other through the usage of a CNI plugin, which is a `Container Networking Interface`
+- Most used CNI plugins are:
+  - Cilium
+  - Calico
+  - Flannel
 
 ## Links
