@@ -40,6 +40,6 @@
 
 ### Note to Self
 
-- Do a raw deployment, change image and ports. Apply, it runs it as a svc, then generate ervice description, change type to `LoadBalancer` -> apply -> get access on externalIP
+- Do a raw deployment, change image and ports. Apply, it runs it as a svc, then generate service description, change type to `LoadBalancer` -> apply -> get access on externalIP
 
 ## Links
