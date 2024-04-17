@@ -34,7 +34,7 @@ export const newTodo = async (formData) => {
 
 The counterpart of this code from the component is:
 
-````
+```
 import { newTodo } from '@/utils/actions'
 
 const NewTodoForm = ({}) => {
@@ -50,7 +50,8 @@ const NewTodoForm = ({}) => {
       </form>
     </div>
   )
-}```
+}
+```
 
 - If you want to make an api you can do it by making an api folder in the app. And then you can make a special file called `route` to define your api. Client-side things have `page.tsx` api's have `route.ts`.
 
@@ -62,6 +63,6 @@ import { NextResponse } from 'next/server'
 export const GET = async (request: Request) => {
   return NextResponse.json({ message: 'hello' })
 }
-````
+```
 
 - Every component by default is server-side component.
