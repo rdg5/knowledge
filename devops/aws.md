@@ -1,5 +1,6 @@
 # AWS
 
+- Reminder that frankfurt is not working for s3 access for whatever reason. USE DUBLIN!!!!
 - Permission for making an s3 bucket public:
 
 ```
