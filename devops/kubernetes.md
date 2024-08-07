@@ -3,6 +3,7 @@
 ## Notes
 
 - `k` is an alias setup in my `.zshrc` for `kubectl`
+- `kubectl services $SERVICENAME --url` can be used to get the ip and endpoint of a service
 
 ### Namespaces
 
