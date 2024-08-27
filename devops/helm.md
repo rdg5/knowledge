@@ -4,7 +4,12 @@
 
 - Works like a wrapper around Kubernetes clusters. Has its own artifact repository, you can pull charts and change them similar to docker
 
+- Prefixing a file with `_` makes helm ignore the helper file
+
 ### Charts
+
+
+#### Values 
 
 - Templates are basically the Kubernetes services and deployments. 
 
@@ -40,6 +45,7 @@ containers:
 protocol: TCP
 ```
 - `{{ Release.Name }}` is basically Go templating
+- If the values are empty their template value will be empty
 - You can create a `values.yaml` file and in that you can define dictionaries for making the namings easier:
 ```
 replicaCount: 2
@@ -53,4 +59,14 @@ In this case you can just say `{{Values.repository}}`
 
 
 - `helm lint ./nginx-chart` is linting the chart same as Terraform does it
+
+#### Functions
+
+- Same as Terraform functions: string, security, kubernetes, regex, etc.
+- Common string functions are: `upper`, `quote`, `replace x,y,z`, `default`
+- You can also use pipeline for combining functions, e.g. `{‹ • Values image.repository | upper | quote| shuffle
+}}` => resulting in image: GN"XNI"
+
+
+
 ## Links
